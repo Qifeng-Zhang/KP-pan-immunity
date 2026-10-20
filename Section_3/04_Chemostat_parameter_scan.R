@@ -9,7 +9,6 @@
 # Input   : parameters
 # Output  : chemostat_scan_results.csv
 #             cost, lambda, prop_S
-# Manuscript: Main text Fig. 4 / Supplementary Note 5
 # ============================================================
 
 library(deSolve)
