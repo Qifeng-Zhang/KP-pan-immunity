@@ -8,7 +8,6 @@
 #             /path/to/WGS/raw_reads/<sample>/<sample>_1.fq.gz
 #             /path/to/WGS/raw_reads/<sample>/<sample>_2.fq.gz
 # Output  : /path/to/WGS/assemblies/<sample>/
-# Manuscript: Supplementary Note 1 (isolation and identification of strains)
 # ============================================================
 set -euo pipefail
 
