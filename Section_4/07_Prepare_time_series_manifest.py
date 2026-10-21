@@ -15,7 +15,7 @@ from pathlib import Path
 SAMPLE_PATTERN = re.compile(r"(d([3-8])((?:0[1-9])|(?:1[0-2]))b)", re.IGNORECASE)
 
 MATE_PATTERN = re.compile(
-    r"(?:^|[._-])R?([12])(?:[._-]?001)"
+    r"(?:^|[._-])R?([12])(?:[._-]?001)?"
     r"(?=\.(?:fastq|fq)(?:\.gz)?$)",
     re.IGNORECASE
 )
