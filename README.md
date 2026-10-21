@@ -19,8 +19,6 @@ Section_3/   Dynamical models of defense-growth trade-offs and herd protection
 Section_4/   Strain-resolved time-series inference for Thauera aminoaromatica
 ```
 
-Scripts are numbered in execution order and each carries a header describing its tool, inputs and outputs.
-
 ## Sections
 
 ### 1) Strain genomes: assembly, taxonomic annotation and defense systems
