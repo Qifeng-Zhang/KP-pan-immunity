@@ -37,7 +37,7 @@ Section_4/   Strain-resolved time-series inference for Thauera aminoaromatica
 - **01_Monod_growth_fitting.R** Fit a resource-dependent (Monod) growth model to the phage-free monoculture growth curves of each strain.
 - **02_Model_1_12h_simulation.R** Simulate Model_1 (defense–growth trade-off only): nutrient-dependent growth plus phage-induced lysis of the susceptible strain.
 - **03_Model_2_12h_simulation.R** Simulate Model_2: Model_1 extended with adsorption-mediated phage removal by the resistant strain.
-- **04_Chemostat_parameter_scan.R** Scan defense cost against adsorption rate in parallel over a 100 × 100 grid under a chemostat extension of Model_2.
+- **04_Chemostat_parameter_scan.R** Scan defense cost against adsorption rate in parallel over a 100 × 100 grid.
 
 
 ### 4) Strain-resolved time-series inference for *Thauera aminoaromatica*
@@ -47,7 +47,7 @@ Database construction:
 - **01_Split_metaphlan_markers.py** Split the MetaPhlAn species-level marker FASTA into one file per marker and write the [ChronoStrain](https://github.com/gibsonlab/chronostrain) seed table.
 - **02_Marker_prevalence_QC.sh** Align every marker against each MAG of the species-level cluster with BLASTN.
 - **03_Summarize_marker_blast.py** Summarise the alignments into per-MAG coverage, per-marker prevalence and a presence/absence matrix.
-- **04_Build_reference_catalog.py** Join the contigs of each MAG into one pseudo-chromosome and write the reference catalog and accession map, using a MAG-to-lineage table supplied by the user.
+- **04_Build_reference_catalog.py** Join the contigs of each MAG into one pseudo-chromosome and write the reference catalog and accession map.
 - **05_Build_marker_subsets.py** Write the seed table, ID list and ID map of the conserved marker set.
 - **06_Make_ChronoStrain_database.sh** Write the ChronoStrain configuration, build the database from the conserved-marker subset, and cluster its entries at marker identity 0.998 to define the lineages tracked in the time series.
 
