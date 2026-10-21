@@ -44,7 +44,7 @@ Section_4/   Strain-resolved time-series inference for Thauera aminoaromatica
 
 Database construction:
 
-- **01_Split_metaphlan_markers.py** Split the MetaPhlAn species-level marker FASTA into one file per marker and write the [ChronoStrain](https://github.com/gbaym/chronostrain) seed table.
+- **01_Split_metaphlan_markers.py** Split the MetaPhlAn species-level marker FASTA into one file per marker and write the [ChronoStrain](https://github.com/gibsonlab/chronostrain) seed table.
 - **02_Marker_prevalence_QC.sh** Align every marker against each MAG of the species-level cluster with BLASTN.
 - **03_Summarize_marker_blast.py** Summarise the alignments into per-MAG coverage, per-marker prevalence and a presence/absence matrix.
 - **04_Build_reference_catalog.py** Join the contigs of each MAG into one pseudo-chromosome and write the reference catalog and accession map, using a MAG-to-lineage table supplied by the user.
