@@ -30,7 +30,7 @@ Section_4/   Strain-resolved time-series inference for Thauera aminoaromatica
 
 ### 2) Full-length 16S rRNA gene profiling of synthetic communities
 
-- **01_Full_length_16S.sh** Import PacBio CCS reads, denoise with [DADA2](https://benjjneb.github.io/dada2/) (`denoise-ccs`) in [QIIME 2](https://qiime2.org).
+- **01_Full_length_16S.sh** Import PacBio CCS reads, denoise with [DADA2](https://benjjneb.github.io/dada2/) in [QIIME 2](https://qiime2.org).
 
 ### 3) Dynamical models of defense–growth trade-offs and herd protection
 
